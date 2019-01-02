@@ -1,38 +1,31 @@
 /* CSS GOES HERE SON !!  */
 .App {
-  background-color: black;
-  color: whitesmoke;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.navBarTop {
+.titleBar {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-.navbarContent ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  /* switches to "row" on Tablet/Desktop */
-}
-.navbarContent li {
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-.navbarContent {
-  display: flex;
-  flex-direction: column;
+.titleName {
+  padding-right: 10px;
 }
 .aboutContent {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 300px;
+  height: 30%;
   background-color: orchid;
+  flex-direction: column-reverse;
 }
 .aboutText {
   padding: 50px;
@@ -42,15 +35,16 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 300px;
+  height: 30%;
   background-color:blue;
+  flex-direction: column;
 }
 .resumeContent {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 300px;
+    height: 30%;
     background-color: yellow;
 }
 .footerContent {
@@ -59,8 +53,8 @@
   align-items: center;
   width: 100%;
   height: 50px;
-  align-items: flex-end;
-  background-color: brown;
+  background-color: black;
+  flex-direction: column;
 }
 .navDeco {
   display:flex;
@@ -81,4 +75,43 @@
   height:10px;
   width: 100vw;
   background-color: brown;
+}
+.brand {
+  display:flex;
+  flex-direction: column;
+}
+/* Animations */
+.umbrella {
+  width: 45px;
+  height: 45px;
+  -webkit-animation-name: umb-animation;
+  -webkit-animation-duration: 4s;
+  animation-name: umb-animation;
+  animation-duration: 4s;
+}
+
+@keyframes umb-animation {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+    transform: rotate(-10deg);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+    transform: rotate(10deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+    transform: rotate(-40deg);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+    transform: rotate(40deg);
+  }
 }

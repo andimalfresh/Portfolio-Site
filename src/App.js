@@ -6,7 +6,6 @@ import About from "./components/About"
 import Linkage from "./components/Linkage"
 import Mavbar from "./components/Mavbar"
 import Resume from "./components/Resume"
-import Example from "./components/Example"
 import Footer from "./components/Footer"
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
         <header className="App-header">
           <Mavbar />
         </header>
-        <Example />
         <About />
         <Resume />
         <Linkage />

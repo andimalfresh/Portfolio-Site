@@ -1,32 +1,29 @@
 import React from 'react'
+// import { Navbar } from 'react-bootstrap'
+// import { NavItem } from 'react-bootstrap'
+// import { Nav } from 'react-bootstrap'
+
+
+
 
 const Mavbar = (props) => {
     return(
-        <div className="navbarContent">
-            <div className="navBarTop">
-                <ul className="navUlLinks"> 
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
-                </ul>
-                <ul className="navUlIcons"> 
-                    <li>Github</li>
-                    <li>LinkedIn</li>
-                    <li>Instagram</li>
-                    <li>Email</li>
-                    <li>Phone</li>
-                </ul>
+      <>
+      <div className="titleBar">
+          <div className="titleName">Andrew Pedersen </div>
+          <div className="titleTitle"> || Software Engineer</div>
+      </div>
+      <div className="navBar">
+        <div className="navDeco">
+            <div className="navBarDeco1">
+            </div>
+            <div className="navBarDeco2">
+            </div>
+            <div className="navBarDeco3">
             </div>   
-     <div className="navDeco">
-        <div className="navBarDeco1">
         </div>
-        <div className="navBarDeco2">
-        </div>
-        <div className="navBarDeco3">
-        </div>   
-        </div>
-     </div>
-
+      </div>
+    </>
     )
 }
 export default Mavbar
