@@ -27,7 +27,7 @@ class Studio401 extends React.Component {
   
       return (
         <div>
-          <p>Studio 401</p>
+          <p className="titleText">Studio 401</p>
   
           <img onClick={this.handleShow} alt="Studio 401 Salon" src={require('./studio401.jpg')} />
   
@@ -47,6 +47,7 @@ class Studio401 extends React.Component {
                    <li>Google AdWords</li>
                    <li>Google AdWordsExpress</li>
                    <li>Google Business</li>
+                   <li>Google Analytics</li>
                </ul>
               <hr />
   

@@ -27,7 +27,7 @@ class SnowG extends React.Component {
   
       return (
         <div>
-          <p>SnowG Streetwear</p>
+          <p className="titleText">SnowG Streetwear</p>
   
           <img onClick={this.handleShow} alt="SnowG Streetwear" src={require('./snowg.png')} />
   

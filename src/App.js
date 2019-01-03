@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import { Navbar } from 'react-bootstrap';
-// import { Modal } from 'react-bootstrap';
 import './App.css';
 import About from "./components/About"
 import Linkage from "./components/Linkage"

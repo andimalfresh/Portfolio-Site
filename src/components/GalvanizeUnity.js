@@ -26,8 +26,8 @@ class GalvanizeUnity extends React.Component {
     render() {
   
       return (
-        <div>
-          <p>SnowG Streetwear</p>
+        <div className="titleText">
+          <p>Galvanize Unity</p>
   
           <img onClick={this.handleShow} alt="PetSwipe" src={require('./petswipe.png')} />
   
