@@ -27,13 +27,21 @@ class SnowG extends React.Component {
   
       return (
         <div>
-          <p className="titleText">SnowG Streetwear</p>
+          <p className="titleText"> Project : SnowG Streetwear</p>
   
           <img onClick={this.handleShow} alt="SnowG Streetwear" src={require('./snowg.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>SnowG Streetwear</Modal.Title>
+              <div className="navDeco">
+                <div className="navBarDeco1m">
+                </div>
+              <div className="navBarDeco2m">
+              </div>
+              <div className="navBarDeco3m">
+              </div>  
+             </div> 
             </Modal.Header>
             <Modal.Body>
                <a href="http://www.originalsnowg.com">www.originalsnowg.com</a>

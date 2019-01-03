@@ -29,14 +29,14 @@ class Resume extends React.Component {
         <div>
           <p className="titleText">Resume</p>
   
-          <img onClick={this.handleShow} alt="Andrew Pedersen - Resume" src={require('./AndrewPedersen_resumeSmall.png')} />
+          <img className="resumeContent" onClick={this.handleShow} alt="Andrew Pedersen - Resume" src={require('./AndrewPedersen_resumeSmall.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Andrew Pedersen - Resume</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-            <p><a href="https://drive.google.com/file/d/1x50qU56YwrGzMQHlyt8a1s-VZfsL_lV6/view?usp=sharing" target="_blank"> Downloadable Copy</a></p>
+            <p><a href="https://drive.google.com/file/d/1x50qU56YwrGzMQHlyt8a1s-VZfsL_lV6/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Downloadable Copy</a></p>
   
             <img alt="Resume" className="resume" src={require('./AndrewPedersen_resume.png')} />
             </Modal.Body>

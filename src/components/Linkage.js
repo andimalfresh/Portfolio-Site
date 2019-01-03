@@ -6,9 +6,11 @@ import Studio401 from './Studio401'
 const Linkage = () => {
     return(
         <div className="linkContent">
-          <SnowG />
-          <GalvanizeUnity />
-          <Studio401 />
+          <ul className="linkList">
+                <li><SnowG /></li>
+                <li><GalvanizeUnity /></li>
+                <li><Studio401 /></li>
+          </ul>
         </div>
 
     )

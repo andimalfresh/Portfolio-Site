@@ -27,13 +27,21 @@ class Studio401 extends React.Component {
   
       return (
         <div>
-          <p className="titleText">Studio 401</p>
+          <p className="titleText">Project : Studio 401</p>
   
           <img onClick={this.handleShow} alt="Studio 401 Salon" src={require('./studio401.jpg')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Studio 401 Salon</Modal.Title>
+              <div className="navDeco">
+                <div className="navBarDeco1m">
+                </div>
+              <div className="navBarDeco2m">
+              </div>
+              <div className="navBarDeco3m">
+              </div>  
+             </div> 
             </Modal.Header>
             <Modal.Body>
                <a href="http://studio401llc.com">www.studio401llc.com</a>
@@ -53,15 +61,16 @@ class Studio401 extends React.Component {
   
               <h4>Studio 401 Salon</h4>
               <p>
-                Studio 401 Salon is a Winter Park, CO's 
+                Studio 401 Salon is a Winter Park, CO's premier modern salon specializing in hair, waxing, and tanning services.
                </p>
                <p>
-                 The Application is a mobile focused synopsis of SnowG as a brand utilizing HTML/CSS/Firebase to better provide traffic to our retail site
-                 and social media platforms.
+                In 2016, my then girlfriend and I decided that due to her success as a stylist with a large customer base that we wanted 
+                to go into business for ourselves and create the best modern salon in the Grand County area. We handled the build out,
+                intereior decorating, infrastructre, customer database integration, scheduling services, identity design, web design, Google Analytics,
+                Google Adwords/AdWordsExpress, SEO, brand and marketing management all our selves.
                </p>
                <p>
-                Moving into 2019 we plan to expand the brands product offerings and social media platform presence. As for our website we are currently moving from 
-                HTML/CSS to a React/ReactNative version as well as incorperate our own store and payment systems to better serve our growing customer base.  
+                We used Squarespace for web design and deployment due to its ease of use, responsive mobile design, and 
               </p>
             </Modal.Body>
             <Modal.Footer>

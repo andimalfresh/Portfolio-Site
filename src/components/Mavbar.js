@@ -10,8 +10,8 @@ const Mavbar = (props) => {
     return(
       <>
       <div className="titleBar">
-          <div className="titleName">Andrew Pedersen </div>
-          <div className="titleTitle"> || Software Engineer</div>
+          <div className="titleName">Andrew Pedersen <img className="umbrella" alt="ultimaUmbrella" src={require('./ultimaUmbrella.png')} />
+            Software Engineer </div>
       </div>
       <div className="navBar">
         <div className="navDeco">

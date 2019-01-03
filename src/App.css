@@ -1,6 +1,6 @@
 /* CSS GOES HERE SON !!  */
 .App {
-  background-color: white;
+  background-color:#E8E1C0;
   color: black;
   display: flex;
   justify-content: center;
@@ -9,9 +9,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt;
 }
-.textTitle {
+.titleText {
   display:flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: brown;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: bolder;
 }
 .titleBar {
   font-size: 2em;
@@ -28,10 +34,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 60%;
   height: 30%;
   background-color: white;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orangered;
 }
 .aboutText {
   padding: 50px;
@@ -42,16 +51,24 @@
   align-items: center;
   width: 80%;
   height: 30%;
-  background-color:blue;
   flex-direction: column;
 }
+.linkContent img {
+  border-style: solid;
+  border-width: 3px;
+  border-color: brown;
+}
 .resumeContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 30%;
-    background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: yellow;
+  width: 300px;
+  height: 400px;
 }
 .footerContent {
   display: flex;
@@ -61,6 +78,7 @@
   height: 50px;
   background-color: black;
   flex-direction: column;
+  margin-top: 50px;
 }
 .navDeco {
   display:flex;
@@ -69,59 +87,115 @@
 }
 .navBarDeco1 {
    height:10px;
-   width: 100vw;
+   width: 100%;
    background-color: orangered;
 }
 .navBarDeco2 {
   height:10px;
-  width: 100vw;
+  width: 100%;
   background-color: yellow;
 }
 .navBarDeco3 {
   height:10px;
-  width: 100vw;
+  width: 100%;
   background-color: brown;
+}
+.navBarDeco1m {
+  height:10px;
+  width: 100%;
+  background-color: orangered;
+}
+.navBarDeco2m {
+ height:10px;
+ width: 100%;
+ background-color: yellow;
+}
+.navBarDeco3m {
+ height:10px;
+ width: 100%;
+ background-color: brown;
 }
 .brand {
   display:flex;
   flex-direction: column;
 }
+a:link {
+  color: brown;
+}
+a:visited {
+  color: brown;
+}
+.contactList li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .resume {
    width: 550px;
    height: 800px;
+   border-style: solid;
+   border-width: 3px;
+   border-color:brown;
 }
-/* Animations */
+.contactList {
+  list-style-type: none;
+}
+.linkList {
+  list-style-type: none;
+}
 .umbrella {
   width: 45px;
   height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
   -webkit-animation-name: umb-animation;
   -webkit-animation-duration: 4s;
   animation-name: umb-animation;
-  animation-duration: 4s;
+  animation-duration: 10s;
 }
 
 @keyframes umb-animation {
-  10%,
   90% {
-    transform: translate3d(-1px, 0, 0);
-    transform: rotate(-10deg);
+    transform: rotate(-360deg);
   }
+}
+@media only screen and (max-width: 768px) {
+  .titleBar {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .titleTitle {
+    align-items: center;
+  }
+  .aboutContent {
+    width: 300px;
+  }
+  .resume {
+    display:none;
+  }
+  .linkContent ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } 
+  .linkContent ul li {
+    display: inline;
 
-  20%,
-  80% {
-    transform: translate3d(2px, 0, 0);
-    transform: rotate(10deg);
   }
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-4px, 0, 0);
-    transform: rotate(-40deg);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(4px, 0, 0);
-    transform: rotate(40deg);
-  }
+}
+@media only screen and (min-width: 1024px) {
+  .navBarDeco1 {
+    width: 100vw;
+ }
+ .navBarDeco2 {
+   width: 100vw;
+ }
+ .navBarDeco3 {
+   width: 100vw;
+ }
+ /* .linkList li {
+   display: inline-block;
+ } */
 }

@@ -27,13 +27,21 @@ class GalvanizeUnity extends React.Component {
   
       return (
         <div className="titleText">
-          <p>Galvanize Unity</p>
+          <p>Project : Galvanize Unity</p>
   
           <img onClick={this.handleShow} alt="PetSwipe" src={require('./petswipe.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>SnowG Streetwear</Modal.Title>
+              <Modal.Title>Galvanize Unity</Modal.Title>
+              <div className="navDeco">
+                <div className="navBarDeco1m">
+                </div>
+              <div className="navBarDeco2m">
+              </div>
+              <div className="navBarDeco3m">
+              </div>  
+             </div> 
             </Modal.Header>
             <Modal.Body>
                <ul>
