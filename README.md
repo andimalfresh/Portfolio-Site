@@ -1,4 +1,12 @@
+This site is my personal site hosted at wandrewpedersen.com
+
+It was created using React, HTML , and CSS. I designed the site in kind of a 
+late 1990s web design theme due to the nostalgia of the "good ole days" of the 
+internet back when I first got into design and programming. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
