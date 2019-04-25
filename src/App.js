@@ -3,7 +3,6 @@ import './App.css';
 import About from "./components/About"
 import Linkage from "./components/Linkage"
 import Mavbar from "./components/Mavbar"
-import Resume from "./components/Resume"
 import Footer from "./components/Footer"
 
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
           <Mavbar />
         </header>
         <About />
-        <Resume />
         <Linkage />
         <Footer />
       </div>
