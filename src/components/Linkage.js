@@ -1,17 +1,17 @@
 import React from 'react'
 import SnowG from './SnowG'
-import GalvanizeUnity from './GalvanizeUnity'
 import Studio401 from './Studio401'
 import Resume from './Resume'
+import GalvanizeUnity from './GalvanizeUnity'
 
 const Linkage = () => {
     return(
         <div className="linkContent">
           <ul className="linkList">
                 <li><Resume /></li>
+                <li><Studio401 /></li>
                 <li><SnowG /></li>
                 <li><GalvanizeUnity /></li>
-                <li><Studio401 /></li>
           </ul>
         </div>
 

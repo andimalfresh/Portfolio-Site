@@ -4,7 +4,9 @@ const About = (props) => {
     return(
         <div className="aboutContent">
             <div className="aboutText">
-                Hello my name is Andrew Pedersen. I am a Software Engineer fluent in both front-end and back-end development. From a young age I have been enthralled in technology, I began learning front end development in the late 90's and kept it up as a hobby over the years along with graphic design. In early 2018, I decided to make a pivot in my career and focus soley on Software Engineering. I am currently enrolled in Galvanize's Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development. 
+            Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development. From a young age I have been enthralled in technology, I began learning front end development in the late 90's and kept it up as a hobby over the years along with graphic design. In early 2018, I decided to make a pivot in my career and focus solely on Software Engineering. I am currently enrolled in Galvanize's Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development.
+
+Currently I am working doing freelance design work, marketing and SEO optimization while pursuing a full time career in software development. Check out some of my past and ongiong projects below. Also feel free to contact me through any of the resources below!
             </div>
             <ul className="contactList">
                 <li>
