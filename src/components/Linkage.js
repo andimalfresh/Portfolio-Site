@@ -9,8 +9,8 @@ const Linkage = () => {
         <div className="linkContent">
           <ul className="linkList">
                 <li><Resume /></li>
-                <li><Studio401 /></li>
                 <li><SnowG /></li>
+                <li><Studio401 /></li>
                 <li><GalvanizeUnity /></li>
           </ul>
         </div>
