@@ -44,7 +44,7 @@ class Studio401 extends React.Component {
              </div> 
             </Modal.Header>
             <Modal.Body>
-               <a href="http://studio401llc.com">www.studio401llc.com</a>
+               url:<a href="http://studio401llc.com">HTTP://studio401llc.com</a>
   
               <hr />
                <ul>
