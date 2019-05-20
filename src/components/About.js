@@ -1,28 +1,38 @@
 import React from 'react'
 
+
 const About = (props) => {
     return(
+        
         <div className="aboutContent">
-            <div className="picContainer">
+            
+            <div className="picContainer"> 
                 <ul className="picList">
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/ThaBoss.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img1.jpg')} alt="The Boss" />
                     </li>
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/ThaBoss.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img2.jpg')} alt="The Boss" />
                     </li>
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/ThaBoss.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img3.jpg')} alt="The Boss" />
                     </li>
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/ThaBoss.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img4.jpg')} alt="The Boss" />
                     </li>
                 </ul>
             </div> 
             <div className="aboutText">
-            Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development. From a young age I have been enthralled in technology, I began learning front end development in the late 90's and kept it up as a hobby over the years along with graphic design. In early 2018, I decided to make a pivot in my career and focus solely on Software Engineering. In Feburary 2019 I graduated Galvanize's Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development.
+            <p>Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development.
+            From a young age I have been enthralled in technology. I began learning front end development in the late 
+            90's and kept it up as a hobby over the years along with graphic design.</p>
+            <p> In early 2018, I decided to make 
+            a pivot in my career and focus solely on Software Engineering. In Feburary 2019 I graduated Galvanize's 
+            Full Stack Immersive Web Development Program which is over 800 hours of front and back end application development. </p>
 
-Currently I am working doing freelance design work, marketing and SEO optimization while pursuing a full time career in software development. Check out some of my past and ongiong projects below. Also feel free to contact me through any of the resources below!
+            <p>Currently I am working doing freelance design work, marketing and SEO optimization while pursuing a full
+            time career in software development. Check out some of my past and ongiong projects further down the page. Also feel free
+            to contact me through any of the resources below! </p>
             </div>
             <ul className="contactList">
                 <li>
