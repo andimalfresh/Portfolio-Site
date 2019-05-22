@@ -268,7 +268,7 @@ a:visited {
     width: 275px; 
   }
 }
-@media only screen and (min-width: 1515px) {
+@media only screen and (min-width: 1439px) {
   img.personalPic {
     display:flex;
     justify-content: center;
@@ -320,5 +320,9 @@ a:visited {
 @media only screen and (max-width: 369px) {
   .titleJob {
     display:none;
+  }
+  img.personalpic {
+    height: 200px;
+    width: 200px;
   }
 }

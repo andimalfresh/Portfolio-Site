@@ -29,7 +29,7 @@ class Resume extends React.Component {
         <div>
           <p className="titleText">Resume</p>
   
-          <img className="resumeContent" onClick={this.handleShow} alt="Andrew Pedersen - Resume" src={require('./AndrewPedersen_resumeSmall.png')} />
+          <img onClick={this.handleShow} alt="Andrew Pedersen - Resume" src={require('./AndrewPedersen_resumeSmall.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
