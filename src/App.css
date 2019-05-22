@@ -235,13 +235,23 @@ a:visited {
   animation-duration: 10s;
   transform: rotate(-20deg);
 }
-
+.picDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.picDiv img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes umb-animation {
   90% {
     transform: rotate(-360deg);
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .titleBar {
     font-size: 10px;
     display: flex;
@@ -265,10 +275,10 @@ a:visited {
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 275px; 
+    width: 200px; 
   }
 }
-@media only screen and (min-width: 1439px) {
+@media only screen and (min-width: 1315px) {
   img.personalPic {
     display:flex;
     justify-content: center;
@@ -299,10 +309,6 @@ a:visited {
    display: inline;
    padding-bottom: 25px;
  }
- /* .aboutText {
-   display: flex;
-   flex-direction: row;
- } */
  .picDiv {
    margin: 10px;
  }

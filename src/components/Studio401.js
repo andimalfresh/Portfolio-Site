@@ -26,7 +26,7 @@ class Studio401 extends React.Component {
     render() {
   
       return (
-        <div>
+        <div className="picDiv">
           <p className="titleText">Project : Studio 401</p>
   
           <img onClick={this.handleShow} alt="Studio 401 Salon" src={require('./studio401.jpg')} />

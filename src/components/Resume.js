@@ -26,7 +26,7 @@ class Resume extends React.Component {
     render() {
   
       return (
-        <div>
+        <div className="picDiv">
           <p className="titleText">Resume</p>
   
           <img onClick={this.handleShow} alt="Andrew Pedersen - Resume" src={require('./AndrewPedersen_resumeSmall.png')} />

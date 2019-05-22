@@ -26,7 +26,7 @@ class SnowG extends React.Component {
     render() {
   
       return (
-        <div>
+        <div className="picDiv">
           <p className="titleText"> Project : SnowG Streetwear</p>
   
           <img onClick={this.handleShow} alt="SnowG Streetwear" src={require('./snowg.png')} />
