@@ -123,13 +123,25 @@ img.personalPic {
   border-color: hotpink;
 }
 .linkList {
-  list-style-type: none;
   display:flex;
+  list-style-type: none;
   justify-content: center;
   align-items: center;
   margin-block-start: 0em;
   margin-block-end: 0em;
   flex-direction: column;
+}
+.linkListMiddleRes {
+  display: none;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  flex-direction: row;
+}
+.linkListMiddleRes img {
+  margin: 10px;
 }
 .resumeContent {
   display: flex;
@@ -279,6 +291,12 @@ a:visited {
     justify-content: center;
     flex-direction: row;
   }
+  .linkListMiddleRes {
+    display: flex;
+  }
+  .linkList {
+    display: none;
+  }
   .aboutContent {
     width: 75%;
   }
@@ -294,6 +312,9 @@ a:visited {
   }
   .linkList {
     flex-direction: row;
+  }
+  .linkListMiddleRes {
+    display: none;
   }
   .picList {
     flex-direction: row;

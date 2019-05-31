@@ -12,6 +12,10 @@ const Linkage = () => {
                 <li><SnowG /></li>
                 <li><Studio401 /></li>
                 <li><GalvanizeUnity /></li>
+          </ul>          
+          <ul className="linkListMiddleRes">
+                <li><Resume /> <SnowG /></li>
+                <li><Studio401 /> <GalvanizeUnity /></li>
           </ul>
         </div>
 
