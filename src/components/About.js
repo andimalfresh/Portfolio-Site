@@ -33,6 +33,8 @@ const About = (props) => {
             <p>Currently I am working doing freelance design work, marketing and SEO optimization while pursuing a full
             time career in software development. Check out some of my past and ongiong projects further down the page. Also feel free
             to contact me through any of the resources below! </p>
+            <p>Outside of Development I am father of two crazy boys, designer for SnowG Streetwear, Guitarist for 18 years, enjoy international travel, and being a world-rankned computer hardware enthusiast.</p>
+            <p>I am constantly adding features and easter eggs to my site so feel free to click around or mess with the resolutions and see whats under the hood.</p>
             </div>
             <ul className="contactList">
                 <li>
