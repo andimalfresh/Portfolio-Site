@@ -27,9 +27,6 @@ ltred: cyan
   font-weight: normal;
   font-style: normal;
 } 
-  
-  
-
 .App {
   background-color: black;
   color: lightcoral;
@@ -75,7 +72,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 80%;
   height: 30%;
   background-color: #F6F4D2;
   flex-direction: column;
@@ -87,9 +84,9 @@ img.personalPic {
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  width: 200px; 
-  margin: 20px;
+  height: 250px;
+  width: 250px; 
+  margin: 10px;
 }
 .picContainter {
   display:flex;
@@ -114,12 +111,6 @@ img.personalPic {
   height: 30%;
   flex-direction: column;
 }
-/* .linkContent ul {
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}  */
 .linkContent ul li {
   display: inline;
 }
@@ -260,12 +251,8 @@ a:visited {
   .titleTitle {
     align-items: center;
   }
-  .aboutContent {
-    width: 80%;
-  }
   .aboutText {
     font-size: 10pt;
-
   }
   .resume {
     display: none;
@@ -276,11 +263,24 @@ a:visited {
     align-items: center;
   }
 }
+@media only screen and (max-width: 1580px) and (min-width: 768px) {
+  .aboutContent {
+    width:488px
+  }
+  .picList {
+    display: inline-block;
+    flex-direction: row;
+    float:center;
+   }
+  .aboutContent {
+    width: 75%;
+  }
+}
+
+
 @media only screen and (min-width: 1580px) {
-  img.personalPic {
-    display:flex;
-    justify-content: center;
-    align-items: top;
+  .aboutContent{
+    width: 75%;
   }
   .linkList {
     flex-direction: row;
