@@ -6,19 +6,29 @@ const About = (props) => {
         
         <div className="aboutContent">
             
-            <div className="picContainer"> 
+            <div className="picContainer">
+            <ul className="picListMiddleRes">
+                    <li className="picLine">
+                        <img className="personalPic" src={require('./img/img1.jpg')} alt="My Little Man Bodhi" />
+                        <img className="personalPic" src={require('./img/img2.jpg')} alt="My little 'G' all grown up" />
+                    </li>
+                    <li className="picLine">
+                        <img className="personalPic" src={require('./img/img3.jpg')} alt="Those Pedersen Boys" />
+                        <img className="personalPic" src={require('./img/img4.jpg')} alt="Adventures with my partner in crime" />
+                    </li>
+                </ul> 
                 <ul className="picList">
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/img1.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img1.jpg')} alt="My Little Man Bodhi" />
+                    </li>
+                    <li className="picLine,bodhi">
+                        <img className="personalPic" src={require('./img/img2.jpg')} alt="My little 'G' all grown up" />
                     </li>
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/img2.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img3.jpg')} alt="Those Pedersen Boys" />
                     </li>
                     <li className="picLine">
-                        <img className="personalPic" src={require('./img/img3.jpg')} alt="The Boss" />
-                    </li>
-                    <li className="picLine">
-                        <img className="personalPic" src={require('./img/img4.jpg')} alt="The Boss" />
+                        <img className="personalPic" src={require('./img/img4.jpg')} alt="Adventures with my partner in crime" />
                     </li>
                 </ul>
             </div> 
