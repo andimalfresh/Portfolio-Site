@@ -44,7 +44,7 @@ class SnowG extends React.Component {
              </div> 
             </Modal.Header>
             <Modal.Body>
-               url:<a href="http://originalsnowg.com">HTTP://originalsnowg.com</a>
+               <a href="http://originalsnowg.com">http://originalsnowg.com</a>
   
               <hr />
                <ul>
