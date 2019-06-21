@@ -21,10 +21,6 @@ const Linkage = () => {
                 <li><MonicaAnderson /></li>
                 <li><EagleWind /></li>
           </ul>          
-          <ul className="linkListMiddleRes">
-                <li><Resume /> <Studio401 /></li>
-                <li><SnowG /> <GalvanizeUnity /></li>
-          </ul>
         </div>
 
     )

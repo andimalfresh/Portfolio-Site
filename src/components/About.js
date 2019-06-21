@@ -7,10 +7,14 @@ const About = (props) => {
     return(
         
         <div className="aboutContent">
-                  <div className="titleBar">
-          <div className="titleName">Andrew Pedersen<img className="umbrella" alt="SnowG logo" src={require('./ultimaUmbrella.png')} />
-             Application Developer</div>
-      </div>
+        
+            <div className="titleBar">
+                <div className="titleName">
+                    Andrew Pedersen
+                    <img className="umbrella" alt="umbrella" src={require('./ultimaUmbrella.png')} />
+                    Application Developer
+                </div>
+            </div>
             <div className="picContainer">
             <ul className="picListMiddleRes">
                     <li className="picLine">
@@ -38,13 +42,9 @@ const About = (props) => {
                 </ul>
             </div> 
             <div className="aboutText">
-            <p>Hello friend !! My name is Andrew. I am a Software Engineer in both front-end and back-end development.
+            <p>Hello friend! My name is Andrew. I am a Software Engineer in both front-end and back-end development.
             From a young age I have been enthralled in technology. I began learning front end development in the late 
             90's and kept it up as a hobby over the years along with graphic design.</p>
-
-            <p>Formerally having a late 1990's themed, even though super responsive, has confused some people so we are changing 
-               it up to a more contemporay themed version to alluviate confusion in case you think I actually design websites with images
-               and HTML tables. </p>
 
             <p> In early 2018, I decided to make 
             a pivot in my career and focus solely on Software Engineering. In Feburary 2019 I graduated Galvanize's 
