@@ -44,7 +44,7 @@ class SnowG extends React.Component {
              </div> 
             </Modal.Header>
             <Modal.Body>
-               <a href="http://originalsnowg.com" target="_blank">http://originalsnowg.com</a>
+               <a href="http://originalsnowg.com" rel="noopener noreferrer" target="_blank">http://originalsnowg.com</a>
   
               <hr />
                <ul>

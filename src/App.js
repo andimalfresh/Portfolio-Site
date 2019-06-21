@@ -4,6 +4,7 @@ import About from "./components/About"
 import Linkage from "./components/Linkage"
 import Mavbar from "./components/Mavbar"
 import Footer from "./components/Footer"
+import ImageQuoteBlock from "./components/ImageQuoteBlock"
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Mavbar />
         </header>
         <About />
+        <ImageQuoteBlock />
         <Linkage />
         <Footer />
       </div>

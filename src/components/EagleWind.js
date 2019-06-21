@@ -45,7 +45,7 @@ class EagleWind extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://eaglewindsound.com/" target="_blank">http://eaglewindsound.com</a></li>
+                    <li><a href="http://eaglewindsound.com/" rel="noopener noreferrer" target="_blank">http://eaglewindsound.com</a></li>
                </ul>
                <hr />
                <ul>

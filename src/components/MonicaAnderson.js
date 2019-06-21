@@ -45,7 +45,7 @@ class MonicaAnderson extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://monicadanderson.com/" target="_blank">http://monicadanderson.com</a></li>
+                    <li><a href="http://monicadanderson.com/" rel="noopener noreferrer" target="_blank">http://monicadanderson.com</a></li>
                </ul>
                <hr />
                <ul>

@@ -1,9 +1,4 @@
-/* 
-darkred : hotpink
-smokeyblack : #0F1108
-lightpink: #C78283
-ltred: orangered 
-*/
+
 @font-face {
   font-family: 'lazer84regular';
   src: url('lazer84-webfont.woff2') format('woff2'),
@@ -27,8 +22,11 @@ ltred: orangered
   font-weight: normal;
   font-style: normal;
 } 
+.App-header {
+  margin-top: 25px;
+}
 .App {
-  background-color: ;
+  background-color: ghostwhite;
   color: black;
   display: flex;
   justify-content: center;
@@ -37,6 +35,9 @@ ltred: orangered
   font-family: Courier,Verdana, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 12pt;
+}
+h1 {
+  font-weight: bold;
 }
 ul {
   padding: 0em;
@@ -66,7 +67,7 @@ ul {
   padding-right: 10px;
   padding-top:10px;
   padding-bottom: 10px;
-  color: orangered;
+  color: black;
   font-family: 'lazer84regular';
 }
 .aboutContent {
@@ -79,7 +80,7 @@ ul {
   flex-direction: column;
   border-style: solid;
   border-width: 3px;
-  border-color: orangered;
+  border-color: dimgray;
 }
 img.personalPic {
   display:flex;
@@ -107,6 +108,25 @@ img.personalPic {
   justify-content: center;
   flex-direction: row;
 }
+.quoteImage {
+  height: 330px;
+  width: 100%;
+  background-color:grey;
+  color: ghostwhite;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url("../src/components/imageQuote1.png");
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column; 
+
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  
+}
 .linkContent {
   display: flex;
   justify-content: center;
@@ -121,7 +141,7 @@ img.personalPic {
 .linkContent img {
   border-style: solid;
   border-width: 3px;
-  border-color: hotpink;
+  border-color: dimgrey;
 }
 .linkList {
   display:flex;
@@ -175,43 +195,29 @@ img.personalPic {
 }
 .navBarDeco1 {
    height:10px;
-   width: 100%;
-   background-color: orangered;
+   width: 100vw;
+   background-color: dimgrey;
+   
 }
 .navBarDeco2 {
   height:10px;
-  width: 100%;
-  background-color: brown;
+  width: 100vw;
+  background-color: black;
 }
 .navBarDeco3 {
   height:10px;
-  width: 100%;
-  background-color: gold;
-}
-.navBarDeco1m {
-  height:10px;
-  width: 100%;
-  background-color: orangered;
-}
-.navBarDeco2m {
- height:10px;
- width: 100%;
- background-color: #0F1108;
-}
-.navBarDeco3m {
- height:10px;
- width: 100%;
- background-color: hotpink;
+  width: 100vw;
+  background-color: lightgrey;
 }
 .brand {
   display:flex;
   flex-direction: column;
 }
 a:link {
-  color: hotpink;
+  color: brown;
 }
 a:visited {
-  color: hotpink;
+  color: orangered;
 }
 .contactList li {
   margin-left: 10px;
@@ -223,7 +229,7 @@ a:visited {
    height: 800px;
    border-style: solid;
    border-width: 3px;
-   border-color:hotpink;
+   border-color:black;
 }
 .contactList {
   list-style-type: none;
@@ -320,15 +326,6 @@ a:visited {
   .picList {
     flex-direction: row;
   }
-  .navBarDeco1 {
-    width: 100vw;
- }
- .navBarDeco2 {
-   width: 100vw;
- }
- .navBarDeco3 {
-   width: 100vw;
- }
 .linkContent {
    display: inline;
    margin-left: 25px;

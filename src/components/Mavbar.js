@@ -9,10 +9,6 @@ import React from 'react'
 const Mavbar = (props) => {
     return(
       <>
-      <div className="titleBar">
-          <div className="titleName">Andrew Pedersen<img className="umbrella" alt="SnowG logo" src={require('./snowgpink.png')} />
-             Application Developer</div>
-      </div>
       <div className="navBar">
         <div className="navDeco">
             <div className="navBarDeco1">

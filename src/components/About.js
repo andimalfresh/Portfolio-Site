@@ -7,7 +7,10 @@ const About = (props) => {
     return(
         
         <div className="aboutContent">
-            {/* <ControlledCarousel /> */}
+                  <div className="titleBar">
+          <div className="titleName">Andrew Pedersen<img className="umbrella" alt="SnowG logo" src={require('./ultimaUmbrella.png')} />
+             Application Developer</div>
+      </div>
             <div className="picContainer">
             <ul className="picListMiddleRes">
                     <li className="picLine">
@@ -66,7 +69,7 @@ const About = (props) => {
                         GitHub</a>
                 </li>
                 <li>
-                    <a className="contactLink" href="mailto:w.andrew.pedersen@gmail.com?Subject=SnowG%20question" rel="noopener noreferrer" target="_top">
+                    <a className="contactLink" href="mailto:w.andrew.pedersen@gmail.com?Subject=Development%20question..." rel="noopener noreferrer" target="_blank">
                         <i className="fas fa-envelope"></i>
                         Email</a>
                 </li>

@@ -45,10 +45,10 @@ class UltimaUmbrella extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://ultimaumbrella.com/" target="_blank">http://ultimaumbrella.com</a></li>
-                    <li><a href="https://github.com/andimalfresh/pet-swipe-frontend">Front End Repo</a></li>
-                    <li><a href="https://github.com/andimalfresh/pet-swipe-backend">Back End Repo</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1hrRowCFc3lyWNFOSOJAcVVBYkdpDUjKGcVCHqjvjhGo/edit?usp=sharing">Google Slides Presentation</a></li>
+                    <li><a href="http://ultimaumbrella.com/" rel="noopener noreferrer" target="_blank">http://ultimaumbrella.com</a></li>
+                    <li><a href="https://github.com/andimalfresh/ultima-Umbrella-FrontEnd-React">Front End Repo</a></li>
+                    <li><a href="https://github.com/andimalfresh/ultimaUmbrella-ProjectBackEnd">Back End Repo</a></li>
+                    <li><a href="https://docs.google.com/presentation/d/1V_9DhZVktS_83C_7h_N-0o-hESjGDeB6w79OYYm-nbw/edit?usp=sharing">Google Slides Presentation</a></li>
                </ul>
                <hr />
                <ul>
