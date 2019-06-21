@@ -58,22 +58,20 @@ class MonicaAnderson extends React.Component {
                </ul>
               <hr />
   
-              <h4>Galvanize Unity</h4>
-              <p>
-                Galvanize Unity was our end of Block Three Project attendending Galvaize's Web Development Immersive Program.
-                After spending the entire block learning React and back end development we were paired with three other cohorts and 
-                given 4 days to create a full CRUD Application of our choosing using a completely foreign library (Vue/Angular/Swift)
-                using the Agile software development model.
+              <h4>Monica D Anderson (.com)</h4>
+              <p> After Returning back home to the Grand County after graduating Galvanize I was soon contacted by my good
+                  friend Monica Anderson to help her launch her new site for real estate and get her site set up for the with 
+                  Google Analytics, Google Tag Manger, and Google Adwords. With the real estate market being so comptetive Grand
+                  County she needed solutions to aquire and capture leads for potential and returning clients. 
               </p>
-               <p>
-                Choosing the Vue library our group began development of the application titled PetSwipe. The application was to incorperate modern
-                web development practices to better facilite the UX for those wishing to adopt a pet. While taking on Vue in 4 days and creating a working
-                application our group did run into difficulties, espeically incorperting a swipe function in the application as the front end of the framework
-                is written in the "light" version of Vue.
+              <p>At first it was a challange returning to CMS systems such as the RealGeeks platform after building everything
+                from scratch for the previous 6 months. Those challanges were quickly over came and we were able to get her site 
+                and Google Business platforms up in a matter of days. 
               </p>
               <p>
-                Since our project presentation the application has been re-engineered on the front end utilizing React-Native and is much more functional
-                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features.
+                I am excited to expand on this project in the near future with my new partnership with local photographer Jay Stewart
+                to build an even better UX/UI experience with visuals that paint a better picture for the user of what its like to live in Grand Country
+                with all of its spectacular views of nature, the continental divide, and gorgeous sunsets.
               </p>
             </Modal.Body>
             <Modal.Footer>
