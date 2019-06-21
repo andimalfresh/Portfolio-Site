@@ -2,7 +2,7 @@
 darkred : hotpink
 smokeyblack : #0F1108
 lightpink: #C78283
-ltred: cyan 
+ltred: orangered 
 */
 @font-face {
   font-family: 'lazer84regular';
@@ -28,14 +28,15 @@ ltred: cyan
   font-style: normal;
 } 
 .App {
-  background-color: black;
-  color: lightcoral;
+  background-color: ;
+  color: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: "basic_lazerregular",Verdana, Tahoma, sans-serif;
-  font-size: 16pt;
+  font-family: Courier,Verdana, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
 }
 ul {
   padding: 0em;
@@ -48,7 +49,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color:cyan;
+  color:black;
   margin-top: 25px;
   margin-bottom: 25px;
   font-weight: bolder;
@@ -65,7 +66,7 @@ ul {
   padding-right: 10px;
   padding-top:10px;
   padding-bottom: 10px;
-  color: cyan;
+  color: orangered;
   font-family: 'lazer84regular';
 }
 .aboutContent {
@@ -74,11 +75,11 @@ ul {
   align-items: center;
   width: 80%;
   height: 30%;
-  background-color: #F6F4D2;
+  background-color: ghostwhite;
   flex-direction: column;
   border-style: solid;
   border-width: 3px;
-  border-color: cyan;
+  border-color: orangered;
 }
 img.personalPic {
   display:flex;
@@ -175,22 +176,22 @@ img.personalPic {
 .navBarDeco1 {
    height:10px;
    width: 100%;
-   background-color: cyan;
+   background-color: orangered;
 }
 .navBarDeco2 {
   height:10px;
   width: 100%;
-  background-color: #F6F4D2;
+  background-color: brown;
 }
 .navBarDeco3 {
   height:10px;
   width: 100%;
-  background-color: hotpink;
+  background-color: gold;
 }
 .navBarDeco1m {
   height:10px;
   width: 100%;
-  background-color: cyan;
+  background-color: orangered;
 }
 .navBarDeco2m {
  height:10px;

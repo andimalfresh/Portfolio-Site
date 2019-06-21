@@ -3,7 +3,7 @@ import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 
 
-class GalvanizeUnity extends React.Component {
+class MonicaAnderson extends React.Component {
     constructor(props, context) {
       super(props, context);
   
@@ -27,13 +27,13 @@ class GalvanizeUnity extends React.Component {
   
       return (
         <div className="picDiv">
-          <p className="titleText">PetSwipe</p>
+          <p className="titleText">MonicaDAnderson</p>
   
-          <img onClick={this.handleShow} alt="PetSwipe" src={require('./petswipe.png')} />
+          <img onClick={this.handleShow} alt="PetSwipe" src={require('./monicaAnderson.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>Galvanize Unity</Modal.Title>
+              <Modal.Title>Monica D Anderson</Modal.Title>
               <div className="navDeco">
                 <div className="navBarDeco1m">
                 </div>
@@ -45,22 +45,16 @@ class GalvanizeUnity extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://petswipe.surge.sh/">http://petswipe.surge.sh</a></li>
-                    <li><a href="https://github.com/andimalfresh/pet-swipe-frontend">Front End Repo</a></li>
-                    <li><a href="https://github.com/andimalfresh/pet-swipe-backend">Back End Repo</a></li>
-                    <li><a href="https://docs.google.com/presentation/d/1hrRowCFc3lyWNFOSOJAcVVBYkdpDUjKGcVCHqjvjhGo/edit?usp=sharing">Google Slides Presentation</a></li>
+                    <li><a href="http://monicadanderson.com/" target="_blank">http://monicadanderson.com</a></li>
                </ul>
                <hr />
                <ul>
                    <li>HTML</li>
                    <li>CSS</li>
                    <li>Javascript</li>
-                   <li>VUE.js</li>
-                   <li>NodeJS</li>
-                   <li>Knex</li>
-                   <li>NodeMailer</li>
-                   <li>PostgreSQL</li>
-                   <li>Heroku</li>
+                   <li>Google Analytics</li>
+                   <li>Google Tag Manager</li>
+                   <li>Real Geeks Platform</li>
                </ul>
               <hr />
   
@@ -93,4 +87,4 @@ class GalvanizeUnity extends React.Component {
   
  
 
-  export default GalvanizeUnity
+  export default MonicaAnderson
