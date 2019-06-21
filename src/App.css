@@ -36,6 +36,12 @@
   font-weight: bold;
   font-size: 12pt;
 }
+a:link {
+  color: dimgrey;
+}
+a:visited {
+  color: lightgray;
+}
 h1 {
   font-weight: bold;
 }
@@ -69,6 +75,20 @@ ul {
   padding-bottom: 10px;
   color: black;
   font-family: 'lazer84regular';
+  display: flex;
+  justify-content: center;
+
+}
+.titleJob {
+  padding-right: 10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  color: black;
+  font-family: 'lazer84regular';
+}
+.titleUmbrella {
+  display: flex;
+  justify-content: center;
 }
 .aboutContent {
   display: flex;
@@ -192,6 +212,10 @@ img.personalPic {
   flex-direction: column;
   margin-bottom: 20px;
 }
+.navDecom {
+  display:flex;
+  flex-direction: column;
+}
 .navBarDeco1 {
    height:10px;
    width: 100vw;
@@ -208,15 +232,25 @@ img.personalPic {
   width: 100vw;
   background-color: lightgrey;
 }
+.navBarDeco1m {
+  height:10px;
+  width: 100%;
+  background-color: dimgrey;
+  
+}
+.navBarDeco2m {
+ height:10px;
+ width: 100%;
+ background-color: black;
+}
+.navBarDeco3m {
+ height:10px;
+ width: 100%;
+ background-color: lightgrey;
+}
 .brand {
   display:flex;
   flex-direction: column;
-}
-a:link {
-  color: dimgrey;
-}
-a:visited {
-  color: lightgray;
 }
 .contactList li {
   margin-left: 10px;

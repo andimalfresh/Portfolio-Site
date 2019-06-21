@@ -34,7 +34,7 @@ class SnowG extends React.Component {
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>SnowG Streetwear</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">

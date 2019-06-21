@@ -11,7 +11,11 @@ const About = (props) => {
             <div className="titleBar">
                 <div className="titleName">
                     Andrew Pedersen
+                </div>
+                <div className="titleUmbrella">
                     <img className="umbrella" alt="umbrella" src={require('./ultimaUmbrella.png')} />
+                </div>
+                <div className="titleJob">
                     Application Developer
                 </div>
             </div>

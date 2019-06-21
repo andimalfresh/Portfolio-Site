@@ -34,7 +34,7 @@ class UltimaUmbrella extends React.Component {
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Ultima Umbrella</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">
@@ -68,23 +68,16 @@ class UltimaUmbrella extends React.Component {
                </ul>
               <hr />
   
-              <h4>Galvanize Unity</h4>
-              <p>
-                Galvanize Unity was our end of Block Three Project attendending Galvaize's Web Development Immersive Program.
-                After spending the entire block learning React and back end development we were paired with three other cohorts and 
-                given 4 days to create a full CRUD Application of our choosing using a completely foreign library (Vue/Angular/Swift)
-                using the Agile software development model.
-              </p>
-               <p>
-                Choosing the Vue library our group began development of the application titled PetSwipe. The application was to incorperate modern
-                web development practices to better facilite the UX for those wishing to adopt a pet. While taking on Vue in 4 days and creating a working
-                application our group did run into difficulties, espeically incorperting a swipe function in the application as the front end of the framework
-                is written in the "light" version of Vue.
-              </p>
-              <p>
-                Since our project presentation the application has been re-engineered on the front end utilizing React-Native and is much more functional
-                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features.
-              </p>
+              <h4>Ultima Umbrella</h4>
+              <p>Ultima Umbrella was a project I created for my capstone project at Galvanize to complete my Web Development Immersive program.
+                The application allows the for more clear communication in the relationship between distributor and customer by ingesting the 
+                distrubutor's catalog and filtering it to the customers needs. The customer then is provided a UI that offers the products that 
+                they order from the distrubutor, chooses the quantity of items they want to order, and then hits a button for the order to populate,
+                and then the order is sent to both distributor and customer via Email and SMS utilizing Twillio API. </p>
+              <p>I created this project after managing a bar and resturant for many years before switching my career. Often times orders get mixed up 
+                when ordering from distributors being as its primarily dones through text messaging.</p>
+              <p>Alot of the the workings of this project were taken down to better facilitate my finaly presentation. I look forward to moving this 
+                 project into production as my time allows.</p>
             </Modal.Body>
             <Modal.Footer>
               <Button onClick={this.handleClose}>Close</Button>

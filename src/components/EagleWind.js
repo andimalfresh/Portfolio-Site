@@ -34,7 +34,7 @@ class EagleWind extends React.Component {
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Eagle Wind Sound</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">
@@ -52,35 +52,15 @@ class EagleWind extends React.Component {
                    <li>HTML</li>
                    <li>CSS</li>
                    <li>Javascript</li>
-                   <li>Java</li>
-                   <li>React</li>
-                   <li>Kotlin</li>
-                   <li>NodeJS</li>
-                   <li>ExpressJS</li>
-                   <li>Knex</li>
-                   <li>TwilioAPI</li>
-                   <li>PostgreSQL</li>
-                   <li>Heroku</li>
-                   <li>Firebase</li>
+                   <li>Google Analytics</li>
+                   <li>Google Tag Manager</li>
+                   <li>WordPress 5.0</li>
                </ul>
               <hr />
   
               <h4>Eagle Wind Sound</h4>
               <p>
-                Galvanize Unity was our end of Block Three Project attendending Galvaize's Web Development Immersive Program.
-                After spending the entire block learning React and back end development we were paired with three other cohorts and 
-                given 4 days to create a full CRUD Application of our choosing using a completely foreign library (Vue/Angular/Swift)
-                using the Agile software development model.
-              </p>
-               <p>
-                Choosing the Vue library our group began development of the application titled PetSwipe. The application was to incorperate modern
-                web development practices to better facilite the UX for those wishing to adopt a pet. While taking on Vue in 4 days and creating a working
-                application our group did run into difficulties, espeically incorperting a swipe function in the application as the front end of the framework
-                is written in the "light" version of Vue.
-              </p>
-              <p>
-                Since our project presentation the application has been re-engineered on the front end utilizing React-Native and is much more functional
-                and responsive. In the future we plan to incorperte user authorization and the Twilio API for SMS/Messaging communication features.
+                Current Project .... 
               </p>
             </Modal.Body>
             <Modal.Footer>

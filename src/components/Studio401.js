@@ -34,7 +34,7 @@ class Studio401 extends React.Component {
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Studio 401 Salon</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">

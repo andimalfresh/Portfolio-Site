@@ -34,7 +34,7 @@ class GalvanizeUnity extends React.Component {
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Galvanize Unity</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">
@@ -45,7 +45,7 @@ class GalvanizeUnity extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://petswipe.surge.sh/">http://petswipe.surge.sh</a></li>
+                    <li><a href="http://petswipe.surge.sh/" target="blank_">http://petswipe.surge.sh</a></li>
                     <li><a href="https://github.com/andimalfresh/pet-swipe-frontend">Front End Repo</a></li>
                     <li><a href="https://github.com/andimalfresh/pet-swipe-backend">Back End Repo</a></li>
                     <li><a href="https://docs.google.com/presentation/d/1hrRowCFc3lyWNFOSOJAcVVBYkdpDUjKGcVCHqjvjhGo/edit?usp=sharing">Google Slides Presentation</a></li>
