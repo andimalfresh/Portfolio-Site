@@ -27,14 +27,14 @@ class SnowG extends React.Component {
   
       return (
         <div className="picDiv">
-          <p className="titleText"> Project : SnowG Streetwear</p>
+          <p className="titleText">SnowG Streetwear</p>
   
           <img onClick={this.handleShow} alt="SnowG Streetwear" src={require('./snowg.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>SnowG Streetwear</Modal.Title>
-              <div className="navDeco">
+              <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
               <div className="navBarDeco2m">
@@ -44,7 +44,7 @@ class SnowG extends React.Component {
              </div> 
             </Modal.Header>
             <Modal.Body>
-               <a href="http://originalsnowg.com">http://originalsnowg.com</a>
+               <a href="http://originalsnowg.com" rel="noopener noreferrer" target="_blank">http://originalsnowg.com</a>
   
               <hr />
                <ul>
