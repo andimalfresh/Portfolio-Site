@@ -12,13 +12,13 @@ const Linkage = () => {
         <div className="linkContent">
           <ul className="linkList">
                 <li><Resume /></li>
-                <li><Studio401 /></li>
-                <li><SnowG /></li>
+                <li><UltimaUmbrella /></li>
                 <li><GalvanizeUnity /></li>
+                <li><Studio401 /></li>
           </ul>
           <ul className="linkList">
-                <li><UltimaUmbrella /></li>      
-                <li><MonicaAnderson /></li>
+                <li><MonicaAnderson /></li>      
+                <li><SnowG /></li>
                 <li><EagleWind /></li>
           </ul>          
         </div>

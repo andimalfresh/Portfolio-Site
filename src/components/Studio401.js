@@ -71,7 +71,8 @@ class Studio401 extends React.Component {
                 Google Adwords/AdWordsExpress, SEO, brand and marketing management all our selves.
                </p>
                <p>
-                We used Squarespace for web design and deployment due to its ease of use, responsive mobile design, and 
+                We used Squarespace for web design and deployment due to its ease of use and responsive mobile design due to at the time we were a bit short
+                on time working full time, raising two boys all while and putting the whole salon together in 4 weeks. 
               </p>
             </Modal.Body>
             <Modal.Footer>
