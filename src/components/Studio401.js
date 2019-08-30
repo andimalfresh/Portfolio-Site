@@ -44,7 +44,7 @@ class Studio401 extends React.Component {
              </div> 
             </Modal.Header>
             <Modal.Body>
-               <a href="http://studio401llc.com" rel="noopener noreferrer" target="_blank">http://studio401llc.com</a>
+               <a href="http://studio401salon.com" rel="noopener noreferrer" target="_blank">http://studio401salon.com</a>
   
               <hr />
                <ul>

@@ -4,7 +4,7 @@ import Studio401 from './Studio401'
 import Resume from './Resume'
 import GalvanizeUnity from './GalvanizeUnity'
 import MonicaAnderson from './MonicaAnderson'
-import EagleWind from './EagleWind'
+import CrookedCreek from './CrookedCreek'
 import UltimaUmbrella from './UltimaUmbrella'
 
 const Linkage = () => {
@@ -19,7 +19,7 @@ const Linkage = () => {
           <ul className="linkList">
                 <li><MonicaAnderson /></li>      
                 <li><SnowG /></li>
-                <li><EagleWind /></li>
+                <li><CrookedCreek /></li>
           </ul>          
         </div>
 

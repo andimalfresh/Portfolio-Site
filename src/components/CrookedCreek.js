@@ -3,7 +3,7 @@ import { Modal } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 
 
-class EagleWind extends React.Component {
+class CrookedCreek extends React.Component {
     constructor(props, context) {
       super(props, context);
   
@@ -27,13 +27,13 @@ class EagleWind extends React.Component {
   
       return (
         <div className="picDiv">
-          <p className="titleText">Eagle Wind Sound</p>
+          <p className="titleText">Crooked Creek Saloon</p>
   
-          <img onClick={this.handleShow} alt="Eagle Wind Sound" src={require('./eagleWind.png')} />
+          <img onClick={this.handleShow} alt="Crooked Creek Saloon" src={require('./creek.png')} />
   
           <Modal show={this.state.show} onHide={this.handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title>Eagle Wind Sound</Modal.Title>
+              <Modal.Title>Crooked Creek Saloon</Modal.Title>
               <div className="navDecom">
                 <div className="navBarDeco1m">
                 </div>
@@ -45,7 +45,7 @@ class EagleWind extends React.Component {
             </Modal.Header>
             <Modal.Body>
                <ul>
-                    <li><a href="http://eaglewindsound.com/" rel="noopener noreferrer" target="_blank">http://eaglewindsound.com</a></li>
+                    <li><a href="https://whale-amethyst-slr6.squarespace.com/" rel="noopener noreferrer" target="_blank">http://crookedcreeksalooncolorado.com</a></li>
                </ul>
                <hr />
                <ul>
@@ -54,14 +54,18 @@ class EagleWind extends React.Component {
                    <li>Javascript</li>
                    <li>Google Analytics</li>
                    <li>Google Tag Manager</li>
-                   <li>WordPress 5.0</li>
+                   <li>Google Tag AdWords</li>
+                   <li>Square Space</li>
+                   <li><a href="http://stewartphotoco.com">Jay Stewart Photography</a></li>
                </ul>
               <hr />
   
-              <h4>Eagle Wind Sound</h4>
+              <h4>Crooked Creek Saloon</h4>
               <p>
-                Current Project .... 
+                My former employers at the Crooked Creek Saloon came to me in August to help them launch a self sustaining web solutions project to better show off weekly events and menu offerings.
               </p>
+              <p>They chose the Square Space platform due to easy to use anayltics and to also allow in house changes of presented content without the need of a web developer.</p>
+              <p>The bread and butter of the site, the menu photograpy, was done by my good friend and long time photographer <a href="http://stewartphotoco.com">Jay Stewart @stewartphotoco</a>.</p>
             </Modal.Body>
             <Modal.Footer>
               <Button onClick={this.handleClose}>Close</Button>
@@ -74,4 +78,4 @@ class EagleWind extends React.Component {
   
  
 
-  export default EagleWind
+  export default CrookedCreek

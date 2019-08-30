@@ -59,7 +59,7 @@ const About = (props) => {
             to contact me through any of the resources below! </p>
 
             <p>Outside of Development I am father of two crazy boys, designer for SnowG Streetwear, Guitarist for 18 years, enjoy international travel, and being a world-rankned computer hardware enthusiast.</p>
-            <p>I am constantly adding features and easter eggs to my site so feel free to click around or mess with the resolutions and see whats under the hood.</p>
+            <p>Recently I've created my own company <i>Pedersen Solutions</i> which is working to provide affordable modern web solutions for small businesses in the Winter Park / Grand County area. I am always interested in speaking with those in the community about services available or answer any questions you may have about web and application development. Feel free to drop me a text or email if you have any.</p>
             </div>
             <ul className="contactList">
                 <li>
@@ -69,7 +69,7 @@ const About = (props) => {
                 </li>
                 <li>
                     <a className="contactLink" rel="noopener noreferrer" target="_blank" href="https://www.github.com/andimalfresh/">
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-github"></i>
                         GitHub</a>
                 </li>
                 <li>

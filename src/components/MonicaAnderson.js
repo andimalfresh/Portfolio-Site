@@ -59,8 +59,8 @@ class MonicaAnderson extends React.Component {
               <hr />
   
               <h4>Monica D Anderson (.com)</h4>
-              <p> After Returning back home to the Grand County after graduating Galvanize I was soon contacted by my good
-                  friend Monica Anderson to help her launch her new site for real estate and get her site set up for the with 
+              <p> After Returning back home to Grand County after graduating Galvanize I was soon contacted by my good
+                  friend Monica Anderson to help her launch her new site in real estate and get set up with 
                   Google Analytics, Google Tag Manger, and Google Adwords. With the real estate market being so comptetive Grand
                   County she needed solutions to aquire and capture leads for potential and returning clients. 
               </p>
@@ -69,7 +69,7 @@ class MonicaAnderson extends React.Component {
                 and Google Business platforms up in a matter of days. 
               </p>
               <p>
-                I am excited to expand on this project in the near future with my new partnership with local photographer Jay Stewart
+                I am excited to expand on this project in the near future with my new partnership with local photographer <a href="http://stewartphotoco.com/">Jay Stewart</a>
                 to build an even better UX/UI experience with visuals that paint a better picture for the user of what its like to live in Grand Country
                 with all of its spectacular views of nature, the continental divide, and gorgeous sunsets.
               </p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mavbar = (props) => {
     return(
-      <>
+      <div>
       <div className="navBar">
         <div className="navDeco">
             <div className="navBarDeco1">
@@ -13,7 +13,7 @@ const Mavbar = (props) => {
             </div>   
         </div>
       </div>
-    </>
+    </div>
     )
 }
 export default Mavbar

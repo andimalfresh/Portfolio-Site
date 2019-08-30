@@ -37,10 +37,10 @@
   font-size: 12pt;
 }
 a:link {
-  color: dimgrey;
+  color: darkred;
 }
 a:visited {
-  color: lightgray;
+  color: red;
 }
 h1 {
   font-weight: bold;
